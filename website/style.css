@@ -1,0 +1,174 @@
+/* body 
+
+body {font-family: "Lato", sans-serif;
+}
+.row{
+  background-color: rgb(0, 0, 0);
+
+}*/
+
+/* body */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.si{
+  font-size:10px;
+}
+/* .me
+{
+height: 500px; width: 500px;
+}*/ 
+
+.sidebar {
+position: fixed;
+z-index: 1;
+background-color: transparent;
+animation: section 2s ease-in-out;
+background-color: white;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+@keyframes section{
+    0%{ transform:translate(-100%);}
+}
+
+
+
+.sidebar a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color:deeppink;
+display: block;
+}
+
+.sidebar a:hover {
+color: rgb(0, 0, 0);
+}
+
+.main {
+/*margin-left: 210px;  Same as the width of the sidenav */
+padding: 0;
+/* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url(".jpg");*/ 
+color:rgb(0, 0, 0);
+text-align: center;
+height: 100%;
+width:100%;
+/*background-color:rgb(0, 0, 0);*/
+background-repeat:no-repeat;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+.user-logo {
+height: 150px;
+width: 150px;
+padding: 25px;
+}
+.img1{
+height: 150px;
+width:150px;
+border: 8px double #1f1f1f;
+border-radius: 50%;
+border-color: black;
+
+}
+.h1{
+  font-size:50px;
+  font-family:border-radius;
+  animation: section 2s ease-in-out;
+  background-color: white;
+}
+
+
+@keyframes section{
+    0%{ transform:translate(-100%);}
+}
+  
+
+.button{
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color: rgb(0, 211, 248);
+display: block;
+background-color: rgb(0, 0, 0);
+
+
+}
+
+.button a:hover {
+color: rgb(0, 0, 0);
+}
+.bi{
+color: rgb(0, 140, 255);
+}
+.love{  
+color: rgb(255, 0, 0);
+text-align: center;
+}
+h1{
+text-align: center;
+}
+.im{
+height: 300px;
+width:300px;
+}
+h4{
+color:red;
+}
+h5{
+color: rgb(0, 211, 248);
+}
+.button {
+border: none;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.button1 {
+background-color: transparent;
+color: rgb(0, 0, 0);
+border: 2px solid rgb(0, 0, 0);
+border-radius:20px;
+}
+
+.button1:hover {
+background-color:rgb(1, 247, 255);
+color: white;
+}
+
+.icons{
+font-size: 25px;
+}
+input,textarea{
+background-color: transparent;
+}
+
+.red{
+  color: white;
+}
+
+.red:hover {
+  color:darkviolet;
+}
+.icons{
+  color: rgb(255, 0, 221);
+}
+.icons:hover {
+  color:deeppink;
+}
+.back{
+  border-radius: 150px;
+}
